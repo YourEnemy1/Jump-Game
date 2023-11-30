@@ -59,7 +59,7 @@ def player_jump():
     y = player.ycor()
     y += 80
     player.sety(y)
-    winsound.PlaySound("F:\Math Files\Python\Sample Game\Sound\Boing Sound.wav", winsound.SND_ASYNC)
+    winsound.PlaySound("./sounds/boink.wav", winsound.SND_ASYNC)
 
 
 # Gravity Speed
